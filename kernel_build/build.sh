@@ -64,7 +64,7 @@ export LLVM=1 LLVM_IAS=1
 export ARCH=arm64
 
 if [ ! -d "$PARENT_DIR/clang-r547379" ]; then
-    git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379 "$PARENT_DIR/clang-r547379" --depth=1
+    git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379.git/ "$PARENT_DIR/clang-r547379" --depth=1
 fi
 
 if [ ! -d "$PARENT_DIR/build-tools" ]; then
